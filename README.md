@@ -11,5 +11,11 @@ $ virtualenv ml  [ if it sets python2 default try $ virtualenv -p python3 ml ]
 # activate virtulaenv
 $ source ml/bin/activate
 
+#install tkinter
+$ sudo apt-get install python3-tk
+
 # install numpy scipy matplotlib ipython scikit-learn
 $ pip install numpy scipy matplotlib ipython scikit-learn
+
+#install panda
+$ pip install pandas
